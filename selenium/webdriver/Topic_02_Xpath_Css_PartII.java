@@ -90,7 +90,7 @@ public class Topic_02_Xpath_Css_PartII {
 	}
 	@Test
 	public void TC_05_Login_Valid_Email_And_Incorrect_Password() {
-		//Click vào My Account link
+		//Click vào My Account link  
 		driver.findElement(By.xpath("//div[@class='footer']//a[text()='My Account']")).click();
 		//Nhập vào incorrect Email và Password
 		driver.findElement(By.id("email")).sendKeys("dam@gmail.com");
@@ -103,8 +103,7 @@ public class Topic_02_Xpath_Css_PartII {
 			
 			
 	}
-
-
+	
 
 	
 	
