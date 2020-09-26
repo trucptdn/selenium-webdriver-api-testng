@@ -31,7 +31,7 @@ public class Topic_02_Firefox_Chrome_Egde {
 	
 	@Test
 	public void TC_03_Run_On_Edge_Chromium(){
-		//Relative Path(Đường dẫn tương đối)
+		
 		System.setProperty("webdriver.edge.driver", ".\\browserDrivers\\msedgedriver.exe");
 		
 		driver = new EdgeDriver();
